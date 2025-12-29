@@ -1,5 +1,6 @@
 
-# Fitness Tracker App with BMI Calculator
+# Fitness Tracker App with BMI Calculator (by Jayant Gautam)
+
 
 A beginner-friendly fitness tracker app with BMI calculation. Built with Python. This app demonstrates:
 - Object-Oriented Development

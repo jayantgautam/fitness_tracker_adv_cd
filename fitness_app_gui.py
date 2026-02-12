@@ -76,7 +76,7 @@ class FitnessAppGUI:
         def calculate_bmi():
             try:
                 weight = float(weight_entry.get())
-                height = float(height_entry.get()) / 100  # Convert cm to meter 
+                height = float(height_entry.get()) / 100  # Converts cm to meter 
                 bmi = self.bmi_calculator.calculate_bmi(weight, height)
                 messagebox.showinfo("BMI Result", f"Your BMI is: {bmi:.2f}")
             except ValueError:

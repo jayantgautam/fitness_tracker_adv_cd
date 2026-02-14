@@ -93,4 +93,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = FitnessAppGUI(root)
     root.geometry("400x400")
-    root.mainloop()
+    root.mainloop() ok

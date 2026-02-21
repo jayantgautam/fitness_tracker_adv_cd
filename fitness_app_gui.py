@@ -89,7 +89,7 @@ class FitnessAppGUI:
         for widget in self.root.winfo_children():
             widget.destroy()
 
-if __name__ == "__main__":
+if __name__ == "__main__": #rehnede
     root = tk.Tk()
     app = FitnessAppGUI(root)
     root.geometry("400x400")

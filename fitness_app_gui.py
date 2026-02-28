@@ -59,7 +59,7 @@ class FitnessAppGUI:
         else:
             tk.Label(self.root, text="No data available.").pack(pady=5)
         
-        tk.Button(self.root, text="Back", command=self.main_menu).pack(pady=10).     rne
+        tk.Button(self.root, text="Back", command=self.main_menu).pack(pady=10).
 
     def calculate_bmi_window(self):
         self.clear_window()

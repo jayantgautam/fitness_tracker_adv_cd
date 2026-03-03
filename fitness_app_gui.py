@@ -67,7 +67,7 @@ class FitnessAppGUI:
         
         tk.Label(self.root, text="Weight (kg):").pack(pady=5)
         weight_entry = tk.Entry(self.root)
-        weight_entry.pack(pady=5))
+        weight_entry.pack(pady=5)
 
         tk.Label(self.root, text="Height (cm):").pack(pady=5)
         height_entry = tk.Entry(self.root)

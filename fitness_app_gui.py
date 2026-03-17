@@ -32,7 +32,7 @@ class FitnessAppGUI:
         activity_entry.pack(pady=5)
         
         tk.Label(self.root, text="Duration (minutes):").pack(pady=5)
-        duration_entry = tk.Entry(self.root)
+        duration_entry = tk.Entry(self.root).      gugh
         duration_entry.pack(pady=5)
 
         def save_data():

@@ -9,7 +9,7 @@ class FitnessAppGUI:
         self.root = root
         self.root.title("Fitness Tracker")
         self.data_persistence = DataPersistence()
-        self.bmi_calculator = BMICalculator() wkdjdj
+        self.bmi_calculator = BMICalculator()
 
         # Create main menu
         self.main_menu()

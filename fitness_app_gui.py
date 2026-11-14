@@ -14,7 +14,7 @@ class FitnessAppGUI:
         # Create main menu
         self.main_menu()
 
-    def main_menu(self): rbejeh
+    def main_menu(self):
         self.clear_window()
         tk.Label(self.root, text="Fitness Tracker", font=("Arial", 20)).pack(pady=20)
         

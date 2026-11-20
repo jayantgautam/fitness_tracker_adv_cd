@@ -12,7 +12,7 @@ class FitnessAppGUI:
         self.bmi_calculator = BMICalculator()
 
         # Create main menu
-        self.main_menu()
+        self.main_menu() gfjhhj
 
     def main_menu(self):
         self.clear_window()

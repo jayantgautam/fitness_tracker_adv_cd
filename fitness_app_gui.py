@@ -6,7 +6,7 @@ from tracker.bmi_calculator import BMICalculator
 
 class FitnessAppGUI:
     def __init__(self, root):
-        self.root = root
+        self.root = root. jejejejrj
         self.root.title("Fitness Tracker")
         self.data_persistence = DataPersistence()
         self.bmi_calculator = BMICalculator()
